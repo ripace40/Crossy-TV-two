@@ -5,24 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Social Media Links</title>
   <style>
-    body { max-width: 42rem; margin: 3rem auto; padding: 0 1rem;
-           font: 1rem system-ui, sans-serif; }
+    body {
+      max-width: 42rem;
+      margin: 3rem auto;
+      padding: 0 1rem;
+      font: 1rem system-ui, sans-serif;
+    }
+    form { display: flex; gap: 0.5rem; }
+    input { flex: 1; min-width: 0; padding: 0.7rem; }
+    button { padding: 0.7rem 1rem; cursor: pointer; } 
     li { margin: 0.75rem 0; }
   </style>
 </head>
 <body>
   <h1>Social Media</h1>
+
+  <form action="https://duckduckgo.com/" method="get">
+    <label for="query">Search the web:</label>
+    <input id="query" name="q" type="search" placeholder="Enter search terms" required>
+    <button type="submit">Search</button>
+  </form>
+
   <ul>
-    <li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/">Instagram</a></li>
-    <li><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/">Facebook</a></li>
-    <li><a target="_blank" rel="noopener noreferrer" href="https://x.com/">X</a></li>
-    <li><a target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/">TikTok</a></li>
-    <li><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/">YouTube</a></li>
-    <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/">LinkedIn</a></li>
-    <li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/">Reddit</a></li>
-    <li><a target="_blank" rel="noopener noreferrer" href="https://www.pinterest.com/">Pinterest</a></li>
-    <li><a target="_blank" rel="noopener noreferrer" href="https://www.snapchat.com/">Snapchat</a></li>
-    <li><a target="_blank" rel="noopener noreferrer" href="https://www.twitch.tv/">Twitch</a></li>
+    <li><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+    <li><a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+    <li><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+    <li><a href="https://www.facebook.com/marketplace/" target="_blank" rel="noopener noreferrer">Facebook Marketplace</a></li>
+    <li><a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer">TikTok</a></li>
   </ul>
-</body>
+</body>  
 </html>
