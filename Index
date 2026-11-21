@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Social Media Links</title>
+  <style>
+    body { max-width: 42rem; margin: 3rem auto; padding: 0 1rem;
+           font: 1rem system-ui, sans-serif; }
+    li { margin: 0.75rem 0; }
+  </style>
+</head>
+<body>
+  <h1>Social Media</h1>
+  <ul>
+    <li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/">Instagram</a></li>
+    <li><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/">Facebook</a></li>
+    <li><a target="_blank" rel="noopener noreferrer" href="https://x.com/">X</a></li>
+    <li><a target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/">TikTok</a></li>
+    <li><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/">YouTube</a></li>
+    <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/">LinkedIn</a></li>
+    <li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/">Reddit</a></li>
+    <li><a target="_blank" rel="noopener noreferrer" href="https://www.pinterest.com/">Pinterest</a></li>
+    <li><a target="_blank" rel="noopener noreferrer" href="https://www.snapchat.com/">Snapchat</a></li>
+    <li><a target="_blank" rel="noopener noreferrer" href="https://www.twitch.tv/">Twitch</a></li>
+  </ul>
+</body>
+</html>
